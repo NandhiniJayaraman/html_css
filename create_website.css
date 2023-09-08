@@ -1,0 +1,39 @@
+body{
+    /* text-align: center; */
+    font-size: large;
+    line-height: 1.5;
+    font-family: verdana, Helvetica, sans-serif;
+    /* background-image: url(html/pic2.avif) */
+    /* padding:20px */
+    
+}
+#css-zen-garden{
+    background:rgb(13, 12, 12);
+}
+.page-wrapper{
+    background:rgb(228, 208, 199);
+     background-image: url(html/pic2.avif); 
+     background-repeat: no-repeat;
+    color: rgb(3, 3, 3);
+    background-size:cover;
+    
+}
+.page-wrapper{
+    background-color: rgb(176, 217, 217);
+    /* margin: 20px 20px; */
+}
+.summary {
+    border: 2px solid;
+    /* text-align: left;
+    padding-left: 10%; */
+}
+header{  
+    background-image: url(html/hand-painted-watercolor-floral-wallpaper_52683-67104.avif);
+    background-size: cover;
+    border: 2px solid;
+    border-color: rgb(220, 63, 63);
+    text-align: left;
+    padding-left: 10%;
+    font-size: large;
+}
+
