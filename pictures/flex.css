@@ -1,0 +1,18 @@
+html{
+    display: flex;
+}
+
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+.sub_head{
+    background-color: brown;
+}
