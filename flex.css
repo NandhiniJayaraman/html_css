@@ -180,9 +180,65 @@ h2{
     height: 600px;
 
 }
+.container20{
+    flex-flow: row wrap;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+    height: 600px;
+
+}
+.container21{
+    flex-flow: row wrap-reverse;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+    height: 600px;
+
+}
+.container22{
+    flex-flow: row-reverse wrap;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+    height: 600px;
+
+}
+.container23{
+    flex-flow: row-reverse wrap-reverse;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+    height: 600px;
+
+}
+.container24{
+    flex-flow: column-reverse wrap;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+    height: 600px;
+
+}
+.container25{
+    flex-flow: column-reverse wrap-reverse;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+    height: 600px;
+
+}
 .div1{
     background-color: rgb(249, 212, 4);
     padding: 30px;
     margin: 20px;
+    width: 100px;
+    height: 100px;
 
 }
