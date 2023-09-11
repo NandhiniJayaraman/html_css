@@ -2,13 +2,16 @@
     display: flex;
 }
 h1{
-    color: rgb(7, 7, 7);
+    color:black;
     text-align: center;
 }
 h2{
-    color: blue;
+    color: rgb(247, 15, 131);
     font-size:30px;
     text-align: center;
+}
+body{
+    background-color: rgb(14, 212, 219);
 }
 .container{
     justify-content:flex-start;
@@ -16,6 +19,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
 
 }
 .container1{
@@ -24,6 +28,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
 
 }
 .container2{
@@ -32,6 +37,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
 
 }
 .container3{
@@ -40,6 +46,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
 
 }
 .container4{
@@ -48,6 +55,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
 
 }
 .container5{
@@ -56,6 +64,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
 
 }
 .container6{
@@ -65,6 +74,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 400px;
+    border-color:white;
 
 }
 .container7{
@@ -74,6 +84,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 400px;
+    border-color:white;
 
 }
 .container8{
@@ -83,6 +94,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 400px;
+    border-color:white;
 
 }
 .container9{
@@ -92,6 +104,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 400px;
+    border-color:white;
 
 }
 .container10{
@@ -101,6 +114,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 400px;
+    border-color:white;
 
 }
 .container11{
@@ -109,6 +123,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
 
 }
 .container12{
@@ -117,6 +132,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
 
 }
 .container13{
@@ -125,6 +141,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
 
 }
 .container14{
@@ -133,6 +150,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
 
 }
 .container15{
@@ -142,6 +160,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 400px;
+    border-color:white;
 
 }
 .container16{
@@ -151,6 +170,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 400px;
+    border-color:white;
 
 }
 .container17{
@@ -160,6 +180,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 400px;
+    border-color:white;
 
 }
 .container18{
@@ -169,6 +190,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 600px;
+    border-color:white;
 
 }
 .container19{
@@ -178,6 +200,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 600px;
+    border-color:white;
 
 }
 .container20{
@@ -187,6 +210,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 600px;
+    border-color:white;
 
 }
 .container21{
@@ -196,6 +220,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 600px;
+    border-color:white;
 
 }
 .container22{
@@ -205,6 +230,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 600px;
+    border-color:white;
 
 }
 .container23{
@@ -214,6 +240,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 600px;
+    border-color:white;
 
 }
 .container24{
@@ -223,6 +250,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 600px;
+    border-color:white;
 
 }
 .container25{
@@ -232,6 +260,7 @@ h2{
     margin-right: 100px;
     border: 5px solid;
     height: 600px;
+    border-color:white;
 
 }
 .container26{
@@ -241,6 +270,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
      /* height: 600px; */
 
 }
@@ -251,6 +281,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
      /* height: 600px; */
 
 }
@@ -261,6 +292,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
      /* height: 600px; */
 
 }
@@ -271,6 +303,7 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
     /* height: 600px; */
 
 }
@@ -281,14 +314,18 @@ h2{
     margin-left: 100px;
     margin-right: 100px;
     border: 5px solid;
+    border-color:white;
     /* height: 600px; */
 
 }
 .div1{
-    background-color: rgb(249, 212, 4);
+    background-color:yellow;
     padding: 30px;
     margin: 20px;
     width: 100px;
     height: 100px;
+    border: 5px solid;
+    border-color: rgb(254, 13, 21);
+
 
 }
