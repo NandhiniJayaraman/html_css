@@ -234,6 +234,56 @@ h2{
     height: 600px;
 
 }
+.container26{
+    flex-wrap: wrap;
+    align-content:flex-start;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+     /* height: 600px; */
+
+}
+.container27{
+    flex-wrap: wrap;
+    align-content:flex-end;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+     /* height: 600px; */
+
+}
+.container28{
+    flex-wrap: wrap;
+    align-content:center;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+     /* height: 600px; */
+
+}
+.container29{
+    flex-wrap: wrap;
+    align-content:space-around;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+    /* height: 600px; */
+
+}
+.container30{
+    flex-wrap: wrap;
+    align-content:space-between;
+    background-color: rgb(8, 8, 7);
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid;
+    /* height: 600px; */
+
+}
 .div1{
     background-color: rgb(249, 212, 4);
     padding: 30px;
