@@ -339,3 +339,8 @@ body{
     /* height: 600px; */
 
 }
+.examples{
+    background-color: blueviolet;
+    justify-content: flex-start;
+    border: 5px dotted;
+}

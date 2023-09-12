@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 100%;
+  line-height: 26px;
+  background: white;
+  background-size: 60%;
+  color: black;
+  margin: 0;
+
+}
+.intro{
+  /* background-color: rgb(240, 19, 200); */
+  overflow: hidden;
+}
+.intro header{
+  position: relative;
+  background: violet;
+  overflow: hidden;
+  width: 40%;
+  float: left;
+  height: 50em;
+} 
+.intro header h1{
+  transform: rotate(-90deg); 
+  /* background-color: aqua  ; */
+  float: left;
+  top: 4.2em;
+  left: -3em;
+  width: auto;
+  margin: 0;
+  padding: 1em;
+  position: absolute;
+  color: aliceblue;
+  font-size: 100%;
+}
+.intro header h2{
+  /* background-color: brown; */
+  color: aliceblue;
+  background:#0d2c40 url(icon-star.svg) no-repeat left bottom;
+  background-size:101%;
+  float: right;
+  position: relative;
+  width: 50%;
+  height: 20.019em;
+  margin: 0;
+  padding: 6em 0.5em 0 0.5em;
+  font-size: 250%;
+  line-height: 1.25em;
+}
+.summary{
+  background-color: cadetblue;
+  width: 60%;
+  color: aliceblue;
+  float: right;
+  background: #c879b2 url(icons-3-pack.svg) no-repeat;
+  background-position: center bottom;
+  background-size: 101%;
+  height: 50em;
+  margin: 0;
+  padding: 16.3em 2em 10em 2em;
+}
