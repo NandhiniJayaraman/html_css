@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css-Animation</title>
+    <style>
+        .ex1{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            /* background-color: aquamarine; */
+            animation-name: example;
+            animation-duration: 10s;
+            animation-iteration-count: 5;
+            /* animation-direction: alternate-reverse; */
+            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        }
+        .ex2{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            /* background-color: aquamarine; */
+            animation-name: example1;
+            animation-duration: 10s;
+            animation-iteration-count: 5;
+            /* animation-direction: alternate-reverse; */
+            animation-timing-function: linear;
+        }
+        .ex3{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            /* background-color: aquamarine; */
+            animation-name: example2;
+            animation-duration: 10s;
+            animation-iteration-count: 5;
+            /* animation-direction: alternate-reverse; */
+            animation-timing-function: ease-out;
+        }
+        .ex4{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            /* background-color: aquamarine; */
+            animation-name: example1;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate-reverse; */
+            animation-timing-function: ease;
+        }
+        .ex5{
+            height: 100px;
+            width: 100px;
+            position: relative;
+            /* background-color: aquamarine; */
+            animation-name: example;
+            animation-duration: 10s;
+            animation-iteration-count: 5;
+            /* animation-direction: alternate-reverse; */
+            animation-timing-function: ease-in;
+        }
+        @keyframes example{
+            0%   {background-color:red; left:0px; top:0px; border: 5px solid black; border-radius: 50%  ;}
+            25%  {background-color:yellow; left:300px; top:0px; border: 5px solid black; border-radius: 50%  ;}
+            50%  {background-color:blue; left:300px; top:200px; border: 5px solid black; border-radius: 50%  ;}
+            75%  {background-color:green; left:0px; top:200px;border: 5px solid black; border-radius: 50%  ;}
+            100% {background-color:red; left:0px; top:0px;border: 5px solid black; border-radius: 50%  ;}
+        }
+        @keyframes example1{
+            0%   {background-color:rgb(24, 181, 152); left:0px; top:0px; border: 5px solid black; border-radius: 50%  ;}
+            25%  {background-color:rgb(233, 51, 10); left:250px; top:0px; border: 5px solid black; border-radius: 50%  ;}
+            50%  {background-color:rgb(192, 20, 158); left:250px; top:250px; border: 5px solid black; border-radius: 50%  ;}
+            75%  {background-color:rgb(194, 30, 147); left:0px; top:250px;border: 5px solid black; border-radius: 50%  ;}
+            100% {background-color:rgb(102, 191, 23); left:0px; top:0px;border: 5px solid black; border-radius: 50%  ;}
+        }
+        @keyframes example2{
+            0%   {background-color:rgb(34, 23, 198); left:0px; top:0px; border: 5px solid black; border-radius: 50%  ;}
+            55%  {background-color:rgb(69, 69, 50); left:200px; top:0px; border: 5px solid black; border-radius: 50%  ;}
+            50%  {background-color:rgb(229, 130, 10); left:200px; top:200px; border: 5px solid black; border-radius: 50%  ;}
+            55%  {background-color:rgb(245, 72, 9); left:0px; top:200px;border: 5px solid black; border-radius: 50%  ;}
+            50% {background-color:rgb(57, 38, 38); left:0px; top:0px;border: 5px solid black; border-radius: 50%  ;}
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="ex1">1</div><br>
+    <div class="ex2">1</div><br>
+    <div class="ex3">1</div><br>
+    <div class="ex4">1</div><br>
+    <div class="ex5">1</div><br>
+    
+
+    
+    
+</body>
+</html>

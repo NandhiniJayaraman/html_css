@@ -6,36 +6,141 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="nandhini.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        <a href="#" class="logo"><img src="nameboard.jpg"></a>
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skill</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="#home" class="active">HOME</a>
+            <a href="#abt">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT US</a>
         </nav>
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi It's Me</h1>
-            <h1>NANDHINI JAYARAMAN</h1>
-            <h3>And I'm a</h3>
-            <p>I'm a Python Developer.<br>
-            Expertise is to create A application & Develop back-end components to improve responsiveness and overall performance</p>
-            <div class="home-sci">
-                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-whatsapp'></i></a>
-                <a href="#"><i class='bx bxl-gmail'></i></a>
-
-            </div>   
+            <h1 class="rainbow-text">NANDHINI JAYARAMAN</h1>
+            <h3>And I'm a <span class="text">Fullstack Developer</span> </h3>
             <a href="#" class="btn-box"> More About Me</a> 
         </div>
+        <div class="home-profile">
+            <div><img src="4.jpg" class="profile" alt="profile photo" height="350px"></div>
+        </div>
 
-    </section>    
+    </section>   
+   <section class="about" id="about">
+    <div class="about-img" >
+        <div><img src="3.jpg" alt="picture" height="300px"></div>
+    </div>
+    <div class="about-text" id="abt">
+        <h2>About<span>Me</span></h2>
+        <h4>Full Stack Developer!</h4>
+        <p>
+            "I'm a passionate Full Stack Developer with a love for crafting web solutions that combine both front-end aesthetics and back-end functionality.
+            I'm not just a developer; I'm also a team player who thrives in collaborative environments. I have a keen eye for detail and take pride in delivering pixel-perfect, efficient code."
+        </p>
+        <a href="https://drive.google.com/file/d/1TcAqycUyyleLtxKD8geHLrCr4KTnbTOQ/view?usp=sharing" class="btn-box">Download CV</a>
+        </div>
+    </section>
+   <section class="skills" >
+    <div class="skill1" id="skills">
+        <h2>Technical skills</h2>
+        <p>HTML</p>
+        <div class="container">
+            <div class="con html">85%</div>
+        </div>
+        <p>CSS</p>
+        <div class="container">
+            <div class="con css">70%</div>
+        </div>
+        <p>JAVASCRIPT</p>
+        <div class="container">
+            <div class="con javascript">55%</div>
+        </div>
+        <p>TYPESCRIPT</p>
+        <div class="container">
+            <div class="con typescript">60%</div>
+        </div>
+        <p>PYTHON</p>
+        <div class="container">
+            <div class="con python">90%</div>
+        </div>
+    </div>
+        <div class="dev">
+          <div class="dev1">
+            <div class="dev-img"><img src="html_css.png"></div>
+            <div class="dev-img"><img src="js1.png"></div>
+            </div>
+            <div class="div2">
+            <div class="dev-img"><img src="python.png"></div>
+            <div class="dev-img"><img src="ts-removebg-preview.png"></div>
+            </div>
+          </div>
+   </section> 
+    <section class="projects" id="projects"  >
+        <h2 class="projects-title" >PROJECTS</h2>
+        <div class="projects-container" >
+          <div class="project-container project-card">
+            <img
+              src="billing-software.png"
+              alt="Billing-software"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Billing-software</h3>
+            <p class="project-details">
+              Billing software project is to develop a user-friendly and efficient software solution for businesses to manage their billing and invoicing processes.
+            </p>
+             <a href="https://github.com/NandhiniJayaraman/Billing-Software" class="btn-box1">GET CODE</a>
+        </div>
+          <div class="project-container project-card">
+            <img
+              src="hotel-management-in-php.png"
+              alt="Hotel Management"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Hotel Management</h3>
+            <p class="project-details">
+              Hotel management project is to create a comprehensive software solution that streamlines and enhances the management of hotel operations.
+            </p>
+             <a href="https://github.com/NandhiniJayaraman/Hotel-management" class="btn-box1">GET CODE</a>
+        </div>
+          <div class="project-container project-card">
+            <img
+              src="calci.jpg"
+              alt="calculator"
+              loading="lazy"
+              class="project-pic"
+        
+            />
+            <h3 class="project-title">Calculator</h3>
+            <p class="project-details">
+              Calculator project is to create a versatile and user-friendly calculator application that can perform a wide range of mathematical operations accurately and efficiently.
+            </p>
+            <a href="https://github.com/NandhiniJayaraman/typescript/blob/main/calculator.html" class="btn-box1">GET CODE</a>
+            <!-- <button><a href="/home/finstein-emp/typescript/calculator.html" target="_blank" class="project-link"></a></button> -->
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <!-- <div class="form1">
+          <form>
+            <input type="text" placeholder="Name"/>
+            <input type="text" placeholder="E-Mail"/>
+            <input type="text" placeholder="Message"/>
+          </form>
+        </div> -->
+      </section>
+
+
+
+
+
+   </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="nandhini.js"></script> 
 </body>
 </html>
